@@ -98,12 +98,10 @@ class CityListTest {
     void lastCityInListTest() {
         CityList cityList = mockCityList();
 
-        assertEquals(mockCity(), lastCityInList());
-
         City city = new City("Victoria", "British Columbia");
         cityList.add(city);
 
-        assertEquals(city, lastCityInList());
+        assertEquals(city, cityList.lastCityInList());
 
     }
 }
