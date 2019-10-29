@@ -93,4 +93,10 @@ class CityListTest {
 
         assertEquals(1, cityList.countCities());
     }
+
+    void testAreaCode(){
+        CityList cityList = mockCityList();
+
+        assertEquals(1, cityList.getCities().get(0).getArea());
+    }
 }

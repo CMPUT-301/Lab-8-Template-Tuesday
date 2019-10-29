@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
     ListView cityList;
     ArrayAdapter<City> cityAdapter;
     ArrayList<City> cityDataList;
+    String test;
 
     CustomList customList;
 
@@ -41,6 +42,8 @@ public class MainActivity extends AppCompatActivity {
 
         cityList.setAdapter(cityAdapter);
 
+
+
 //        dataList = new ArrayList<>();
 //        dataList.addAll(Arrays.asList(cities));
 //
@@ -51,6 +54,8 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+
+
 
 
 }
