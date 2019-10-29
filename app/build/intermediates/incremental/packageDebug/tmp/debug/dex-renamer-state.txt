@@ -1,0 +1,4 @@
+#Tue Oct 29 17:35:49 MDT 2019
+base.0=/Users/kathleen/Desktop/Lab-8-Template-Tuesday/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
