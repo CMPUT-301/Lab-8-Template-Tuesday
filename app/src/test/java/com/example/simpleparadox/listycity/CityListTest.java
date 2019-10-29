@@ -30,6 +30,10 @@ class CityListTest {
     }
 
     @Test
+    void testFalse(){
+        assertEquals(true,true);
+    }
+    @Test
     void testAddException() {
         CityList cityList = mockCityList();
 
