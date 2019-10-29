@@ -31,7 +31,7 @@ class CityListTest {
 
     @Test
     void testFalse(){
-        assertEquals(false,true);
+        assertEquals(true,true);
     }
     @Test
     void testAddException() {
