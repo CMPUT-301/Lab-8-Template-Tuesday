@@ -18,7 +18,7 @@ public class City implements Comparable<City>{
     }
 
     int getArea(){
-        return 1;
+        return 0;
     }
 
     @Override
