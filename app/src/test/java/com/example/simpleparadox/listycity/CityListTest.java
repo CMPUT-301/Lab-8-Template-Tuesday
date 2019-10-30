@@ -98,6 +98,6 @@ class CityListTest {
     void lab8failTest(){
         CityList cityList = mockCityList();
 
-        assertFalse(cityList.hasCity(mockCity()));
+        assertTrue(cityList.hasCity(mockCity()));
     }
 }
