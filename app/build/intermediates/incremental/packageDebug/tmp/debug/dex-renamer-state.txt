@@ -1,0 +1,4 @@
+#Tue Oct 29 17:35:27 MDT 2019
+base.0=C\:\\Users\\izuen\\Documents\\School\\cmput 301\\Labs\\Lab 8\\Lab-8-Template-Tuesday\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

@@ -17,6 +17,10 @@ public class City implements Comparable<City>{
         return this.province;
     }
 
+    int getArea(){
+        return 1;
+    }
+
     @Override
     public int compareTo(City o) {
         return city.compareTo(o.getCityName());
