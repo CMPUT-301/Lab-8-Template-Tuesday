@@ -77,7 +77,7 @@ public class CityList {
      *      Size of city list
      */
     public boolean isCitiesEmpty() {
-        return true;
+        return cities.isEmpty();
     }
 
     /**
