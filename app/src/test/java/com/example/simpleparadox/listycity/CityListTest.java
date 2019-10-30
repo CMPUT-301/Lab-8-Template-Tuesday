@@ -30,6 +30,12 @@ class CityListTest {
     }
 
     @Test
+    void testIsCitiesEmpty(){
+        CityList citylist = mockCityList();
+        assertFalse(citylist.isCitiesEmpty());
+    }
+
+    @Test
     void testAddException() {
         CityList cityList = mockCityList();
 
