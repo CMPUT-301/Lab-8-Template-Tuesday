@@ -49,6 +49,13 @@ class CityListTest {
     }
 
     @Test
+    void testCompareCity() {
+        CityList cityList = mockCityList();
+
+        assertTrue(cityList.compareCity(0,mockCity()));
+    }
+
+    @Test
     void testGetCities() {
         CityList cityList = mockCityList();
 
@@ -75,6 +82,7 @@ class CityListTest {
         assertEquals(1, cityList.countCities());
         assertEquals(0, city.compareTo(cityList.getCities().get(0)));
     }
+
 
     @Test
     void testDeleteException() {

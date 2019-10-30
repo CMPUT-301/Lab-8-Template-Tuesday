@@ -52,6 +52,19 @@ public class CityList {
     }
 
     /**
+     * Compare the given city with the the city in the list at the given index.
+     * @param index
+     *      The index of the comparison city
+     * @param city
+     *      The city we are asked to compare it to.
+     * @return
+     *      Return true if the cities are the same.
+     */
+    public boolean compareCity(int index, City city) {
+        return 0 == city.compareTo(cities.get(index));
+    }
+
+    /**
      * Delete the city from the list if it is there
      * @param city
      *      Candidate city to delete
