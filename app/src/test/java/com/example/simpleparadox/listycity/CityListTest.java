@@ -98,6 +98,6 @@ class CityListTest {
     @Test
     void testHasNoCity() {
         CityList cityList = mockCityList();
-        assertTrue(cityList.hasNoCity(mockCity()));
+        assertFalse(cityList.hasNoCity(mockCity()));
     }
 }
