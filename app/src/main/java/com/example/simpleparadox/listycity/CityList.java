@@ -51,6 +51,16 @@ public class CityList {
         return false;
     }
 
+    public boolean hasNoCity(City city) {
+        for (City c : cities) {
+            if (c.getCityName().equals(city.getCityName()) &&
+                    c.getProvinceName().equals(city.getProvinceName())) {
+                return false;
+            }
+        }
+         return true;
+    }
+
     /**
      * Delete the city from the list if it is there
      * @param city

@@ -11,6 +11,7 @@ class CityListTest {
         CityList cityList = new CityList();
         cityList.add(mockCity());
         return cityList;
+
     }
 
     private City mockCity() {
@@ -92,5 +93,11 @@ class CityListTest {
         CityList cityList = mockCityList();
 
         assertEquals(1, cityList.countCities());
+    }
+
+    @Test
+    void testHasNoCity() {
+        CityList cityList = mockCityList();
+        assertFalse(cityList.hasNoCity(mockCity()));
     }
 }
