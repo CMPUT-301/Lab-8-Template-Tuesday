@@ -77,4 +77,15 @@ public class CityList {
     public int countCities() {
         return cities.size();
     }
+
+
+    public String getFirstCityName(){
+        if (cities.size() >= 1){
+            return (cities.get(0).getCityName());
+        }
+        else{
+            return null;
+        }
+    }
+
 }
