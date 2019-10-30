@@ -13,6 +13,6 @@ public class CityTest {
     @Test
     void testGetCityName(){
         City city = mockCity();
-        assertEquals("Edmonton", city.getCityName());
+        assertEquals("Edmont", city.getCityName());
     }
 }
