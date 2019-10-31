@@ -23,6 +23,16 @@ public class CityList {
     }
 
     /**
+     * This is new function that hasn't been implemented --Test for function is in the CityListTest.java
+     */
+    public void clearAll() {
+
+    }
+
+
+
+
+    /**
      * This returns a sorted list of cities
      * @return
      *      Return the sorted list
