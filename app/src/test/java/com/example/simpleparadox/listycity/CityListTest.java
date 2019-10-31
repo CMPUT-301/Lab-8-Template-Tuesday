@@ -93,4 +93,12 @@ class CityListTest {
 
         assertEquals(1, cityList.countCities());
     }
+
+    @Test
+    void testReplaceCity() {
+        City city = mockCity();
+        City newCity = new City("Vancouver","British Columbia");
+        city.replaceCity("Vancouver","British Columbia");
+        assertEquals(newCity, city);
+    }
 }
