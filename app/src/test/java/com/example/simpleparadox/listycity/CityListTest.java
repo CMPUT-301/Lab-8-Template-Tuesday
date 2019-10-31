@@ -99,6 +99,7 @@ class CityListTest {
         City city = mockCity();
         City newCity = new City("Vancouver","British Columbia");
         city.replaceCity("Vancouver","British Columbia");
-        assertEquals(newCity, city);
+        assertEquals(newCity.getCityName(), city.getCityName());
+        assertEquals(newCity.getProvinceName(), city.getProvinceName());
     }
 }
