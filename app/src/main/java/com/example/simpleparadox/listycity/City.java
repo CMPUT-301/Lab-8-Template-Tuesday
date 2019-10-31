@@ -23,6 +23,7 @@ public class City implements Comparable<City>{
     }
 
     void replaceCity(String cityName, String provinceName) {
-
+        city = cityName;
+        province = provinceName;
     }
 }
