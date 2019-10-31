@@ -79,12 +79,11 @@ public class CityList {
     }
 
     public boolean hasProvince(City city) {
-/*        for (City c : cities) {
+        for (City c : cities) {
             if (c.getProvinceName().equals(city.getProvinceName())) {
                 return true;
             }
         }
-        */
         return false;
     }
 }
