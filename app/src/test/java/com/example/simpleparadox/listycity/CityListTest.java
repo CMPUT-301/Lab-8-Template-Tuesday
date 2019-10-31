@@ -95,9 +95,9 @@ class CityListTest {
     }
 
     @Test
-    void failTest_lab8(){
+    void fixedTest_lab8(){
         CityList cityList = mockCityList();
 
-        assertFalse(cityList.hasCity(mockCity()));
+        assertTrue(cityList.hasCity(mockCity()));
     }
 }
