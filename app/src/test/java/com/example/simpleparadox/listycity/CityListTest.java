@@ -86,7 +86,6 @@ class CityListTest {
             cityList.delete(mockCity());
         });
     }
-
     @Test
     void testCountCities() {
         CityList cityList = mockCityList();
