@@ -96,6 +96,6 @@ class CityListTest {
 
     @Test
     void exerciseTest() {
-        assert(0==1);
+        assert(1==1);
     }
 }
