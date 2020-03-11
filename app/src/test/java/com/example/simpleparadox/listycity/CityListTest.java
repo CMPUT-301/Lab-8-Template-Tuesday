@@ -95,7 +95,7 @@ class CityListTest {
     }
 
     @Test
-    void  testWrong{
-        bad
+    void  testWrong (){
+        ;
     }
 }
