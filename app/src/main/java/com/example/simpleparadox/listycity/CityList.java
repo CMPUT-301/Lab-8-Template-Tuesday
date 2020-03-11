@@ -23,7 +23,7 @@ public class CityList {
     }
 
     public City peek(){
-        return cities.get(1);
+        return cities.get(0);
     }
 
     /**
