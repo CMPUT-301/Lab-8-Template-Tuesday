@@ -22,6 +22,10 @@ public class CityList {
         cities.add(city);
     }
 
+    public City peek(){
+        return cities.get(0);
+    }
+
     /**
      * This returns a sorted list of cities
      * @return

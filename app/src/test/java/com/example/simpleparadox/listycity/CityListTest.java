@@ -93,4 +93,14 @@ class CityListTest {
 
         assertEquals(1, cityList.countCities());
     }
+
+
+    @Test
+    void testPeekCity(){
+        CityList cityList = mockCityList();
+
+        cityList.add(new City("Los Angeles", "California"));
+
+        assertEquals(cityList.peek(), cityList.getCities().get(0));
+    }
 }
