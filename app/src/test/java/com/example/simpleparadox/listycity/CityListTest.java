@@ -96,6 +96,6 @@ class CityListTest {
 
     @Test
     void  testWrong{
-        
+        bad
     }
 }
