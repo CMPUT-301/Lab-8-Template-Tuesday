@@ -77,4 +77,11 @@ public class CityList {
     public int countCities() {
         return cities.size();
     }
+
+    public void append (City city) {
+        if (hasCity(city)) {
+            throw new IllegalArgumentException();
+        }
+        cities.add(city);
+    }
 }
