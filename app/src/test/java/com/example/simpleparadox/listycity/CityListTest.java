@@ -97,8 +97,7 @@ class CityListTest {
     @Test
     void testMock() {
         CityList cityList = mockCityList();
-        City city = new City("Victoria", "British Columbia");
 
-        assertTrue(cityList.hasCity(city));
+        assertTrue(cityList.hasCity(mockCity()));
     }
 }
