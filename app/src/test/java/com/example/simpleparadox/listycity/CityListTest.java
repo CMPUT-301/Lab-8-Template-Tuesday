@@ -18,6 +18,18 @@ class CityListTest {
     }
 
     @Test
+    void testAddFailToRight(){
+        CityList cityList = mockCityList();
+
+        assertEquals(1, cityList.countCities());
+        cityList.add(new City("Beijing", "Beijing"));
+
+        assertEquals(2, cityList.countCities());
+        assertTrue(cityList.hasCity(new City("Beijing", "Beijing")));
+    }
+
+
+    @Test
     void testAdd() {
         CityList cityList = mockCityList();
 
@@ -77,6 +89,21 @@ class CityListTest {
     }
 
     @Test
+    void testNewDeleteCity() {
+        CityList cityList = mockCityList();
+
+        City city = new City("Beijing", "Beijing");
+        cityList.add(city);
+
+        assertEquals(2, cityList.countCities());
+
+        cityList.delete(mockCity());
+
+        assertEquals(1, cityList.countCities());
+        assertEquals(0, city.compareTo(cityList.getCities().get(0)));
+    }
+
+    @Test
     void testDeleteException() {
         CityList cityList = mockCityList();
 
@@ -93,4 +120,6 @@ class CityListTest {
 
         assertEquals(1, cityList.countCities());
     }
+
+
 }
