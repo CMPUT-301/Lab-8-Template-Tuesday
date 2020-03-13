@@ -11,6 +11,6 @@ public class Citytest {
     @Test
     public void test_city(){
         City city = get_city();
-        assertEquals("jkk",city.getCityName());
+        assertEquals("j",city.getCityName());
     }
 }
