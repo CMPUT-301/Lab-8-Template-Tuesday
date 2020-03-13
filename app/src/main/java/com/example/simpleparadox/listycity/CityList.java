@@ -77,4 +77,22 @@ public class CityList {
     public int countCities() {
         return cities.size();
     }
+
+    /**
+     * This method checks to see if a city already exists in the list
+     * @param city
+     *      City to check
+     * @return
+     *      Return true if the city exists already
+     */
+    public boolean isCity(City city) {
+        for (City c : cities) {
+            if (c.getCityName().equals(city.getCityName()) &&
+                    c.getProvinceName().equals(city.getProvinceName())) {
+                return true;
+            }
+        }
+
+        return false;
+    }
 }
